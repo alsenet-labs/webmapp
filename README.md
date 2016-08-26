@@ -6,13 +6,13 @@ Proof of concept
 
 ## Demo
 The online demo is available here:
-- http://luxigo.github.io/webmapp
+- http://alsenet-labs.github.io/webmapp
 
 The configuration file is:
-- https://github.com/luxigo/webmapp/tree/gh-pages/app/layers/battelle/layers.json
+- https://github.com/alsenet-labs/webmapp/tree/gh-pages/app/layers/battelle/layers.json
 
 And the "offline" map tiles are stored in
-- https://github.com/luxigo/webmapp/tree/gh-pages/app/layers/battelle
+- https://github.com/alsenet-labs/webmapp/tree/gh-pages/app/layers/battelle
 
 Please always give appropriate credit and respect the licensing terms for map tiles and layer imagery.
 
@@ -44,7 +44,7 @@ An [angular directive] (https://docs.angularjs.org/guide/directive) will eventua
 
 # Installation
 ```
-git clone https://github.com/luxigo/webmapp
+git clone https://github.com/alsenet-labs/webmapp
 ```
 
 The application html root is located in webmapp/dist.
