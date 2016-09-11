@@ -82,6 +82,7 @@ module.exports = function (grunt) {
           open: true,
           middleware: function (connect) {
             var cassandraClient=require('./cassandra-client.js');
+            var cache=require('./cache.js')({middleware: true});
 
             return [
               connect.static('.tmp'),
@@ -96,6 +97,10 @@ module.exports = function (grunt) {
               connect().use(
                 '/cassandra/find',
                 cassandraClient.middleware.find
+              ),
+              connect().use(
+                '/cache',
+                cache.middleware.get
               ),
               connect.static(appConfig.app)
             ];

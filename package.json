@@ -1,6 +1,7 @@
 {
   "name": "webmapp",
-  "private": true,
+  "version": "1.1.0",
+  "private": false,
   "devDependencies": {
     "autoprefixer-core": "^5.2.1",
     "grunt": "^0.4.5",
@@ -45,7 +46,10 @@
   },
   "dependencies": {
     "cassandra-driver": "^3.0.2",
-    "geojson-vt": "^2.1.8",
-    "requirejs": "^2.2.0"
+    "extend": "^3.0.0",
+    "follow-redirects": "^0.2.0",
+    "progress-stream": "^1.2.0",
+    "q": "^1.4.1",
+    "request": "^2.74.0"
   }
 }
